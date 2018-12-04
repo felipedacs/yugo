@@ -1,0 +1,30 @@
+.hero-full{
+    background: linear-gradient(0.25turn, #a3218e, #592f93, #5e87c7);
+    background-size: 200%;
+    animation: movimento 10s infinite;
+}
+
+@keyframes movimento{
+	50%{
+		background-position: 100%;
+	}
+
+	100% {
+		background-position: 0;
+	}
+}
+
+h1, h2{
+    color: beige !important;
+}
+
+a{
+    color: beige !important;
+    font-style: italic;
+}
+
+a:hover{
+    color: beige !important;
+    transition: 2s !important;
+    background-color: #ff4088 !important;
+}
